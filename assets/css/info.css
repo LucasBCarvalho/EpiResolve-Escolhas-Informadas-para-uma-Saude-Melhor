@@ -1,0 +1,14 @@
+.servico .rows-cards p{
+    text-align: center;
+}
+
+.servico .rows-cards .btn {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.servico .rows-cards .btn a{
+    color: white;
+}

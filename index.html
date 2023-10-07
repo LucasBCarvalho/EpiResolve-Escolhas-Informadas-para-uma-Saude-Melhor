@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ICONE-->
+	<link rel="shortcut icon" href="./assets/imgs/medicine-clipart-medical-symbol-1.png" type="image/x-icon">
+    <title>EpiResolve - Escolhas Informadas para uma Saúde Melhor</title>
+    <!--AOS CSS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <!-- Font awesome -->
+    <link 
+        rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" 
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
+    <!--AOS JS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="container">
+            <nav class="navigation">
+                <a href="index.html">
+                    <img class="logo" src="./assets/imgs/logo.png" alt="Logo" data-aos="fade-down">
+                </a>
+                <ul class="ul" data-aos="fade-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="servico.html">Serviços</a></li>
+                    <li><a class="btn" href="cadastre-se.html">Cadastrar</a></li>
+                    
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times-circle"></i>
+                    </div>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+
+            <section class="banner">
+                <div class="banner-text" data-aos="fade-up" data-aos-delay="300">
+                    <h1>EpiResolve</h1>
+                    <p>Escolhas Informadas para uma Saúde Melhor</p>
+                    <a class="btn animate-btn" href="cadastre-se.html">Cadastre-se</a>
+                </div>
+            </section>
+        </div>
+    </header>
+    <!--End Header-->
+    <section class="faca-mais">
+        <div class="container">
+            <div class="faca-mais-text" data-aos="fade-down" data-aos-delay="300">
+                <h3>Inscreva-se para saber mais, com EpiResolve!</h3>
+                <p>
+                    Cadastre-se para receber um PDF informativo sobre epidemias como AIDS, 
+                    tuberculose, malária e outras doenças transmissíveis. Aprenda como combater hepatite, 
+                    doenças transmitidas pela água e mais. Junte-se à nossa missão de promover a saúde global. 
+                </p>
+                <a href="cadastre-se.html" class="btn animate-btn">Cadastre-se agora!</a>
+            </div>
+            <div class="faca-mais-img" data-aos="zoom-in" data-aos-delay="400">
+                <img src="./assets/imgs/EpiResolve.png" alt="Sobre">
+            </div>
+        </div>
+        <div class="container">
+            <div class="faca-mais-img">
+                <img class="img-ods" src="./assets/imgs/Rectangle 5.svg" alt="Sobre" data-aos="zoom-in" data-aos-delay="400">
+            </div>
+            <div class="faca-mais-text" data-aos="zoom-in" data-aos-delay="300">
+                <h3>Sobre</h3>
+                <p>
+                    Seguindo o ODS 3.3, traçamos objetivos audaciosos para a promoção da saúde global. 
+                    Nossa principal missão consiste em acabar com as antigas epidemias, a exemplo da AIDS, 
+                    tuberculose e malária, simultaneamente ao firme enfrentamento de doenças tropicais negligenciadas, hepatite, 
+                    doenças transmitidas pela água e outras enfermidades de natureza transmissível. 
+                    Este compromisso fundamental é a base de nossos esforços incessantes, 
+                    visando incansavelmente à promoção de um futuro mais seguro e saudável para todas as comunidades, 
+                    alinhando-se fielmente com os objetivos do ODS 3.3.
+                </p>
+                <a href="sobre.html" class="btn">Saiba mais!</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="comentarios">
+        <div class="container"> 
+            <h3>SERVIÇOS</h3>
+            <p>
+                O objetivo central do nosso site é criar um espaço inclusivo e acessível que se dedique à investigação, 
+                divulgação de informações e sensibilização sobre epidemias de doenças, como AIDS, tuberculose, malária, 
+                doenças tropicais negligenciadas, hepatite e doenças transmitidas pela água. Além disso, almejamos promover a educação do público, 
+                estimular a prevenção e facilitar a implementação de ações eficazes para combater essas doenças.
+            </p>
+            <div class="cards">
+                <div class="card-item" data-aos="fade-up" data-aos-delay="250">
+                    <img src="./assets/imgs/Informações.png" alt="Informações">
+                    <p class="nome-user">Informações Sobre Doenças</p>
+                    <p class="comentario-user">
+                        Fornecemos informações confiáveis sobre diversas doenças, baseadas em pesquisas acadêmicas, com o objetivo de aumentar a compreensão do público sobre essas condições, 
+                        promovendo a conscientização e fornecendo orientações claras sobre prevenção e tratamento. 
+                        Acreditamos que o conhecimento é a chave para a prevenção e, portanto, nos esforçamos para tornar as informações médicas acessíveis a todos.
+                    </p>
+                    <div class="estrelas">
+                        <div class="btn"><a href="info.html">Informações</a></div>
+                    </div>
+                </div>
+                <div class="card-item" data-aos="fade-up" data-aos-delay="350">
+                    <img src="./assets/imgs/Games.png" alt="Exploração Lúdica e Educativa">
+                    <p class="nome-user">Exploração Lúdica e Educativa</p>
+                    <p class="comentario-user">
+                        Utilização de jogos educativos como “SymptomSolver”, “EpidemicEscape” e “TransmitDefender”para engajar usuários na identificação de doenças por sintomas, 
+                        conscientização sobre prevenção de epidemias e combate a doenças transmissíveis, 
+                        incluindo AIDS, tuberculose, malária, doenças tropicais negligenciadas, hepatite e doenças transmitidas pela água.
+                    </p>
+                    <div class="estrelas">
+                        <div class="btn">Jogos</div>
+                    </div>
+                </div>
+                <div class="card-item" data-aos="fade-up" data-aos-delay="450">
+                    <img src="./assets/imgs/Deduções.png" alt="Análise de Sintomas Inteligente">
+                    <p class="nome-user">Análise de Sintomas Inteligente</p>
+                    <p class="comentario-user">
+                        Nós fornecemos uma análise básica de sintomas usando informações detalhadas sobre várias epidemias, incluindo AIDS, 
+                        tuberculose, malária, doenças tropicais negligenciadas, hepatite e doenças transmitidas pela água.
+                        Tendo como principal objetivo é servir como um recurso confiável para indivíduos que buscam entender melhor suas condições de saúde 
+                        e as várias epidemias que afetam nossa sociedade atualmente.
+                    </p>
+                    <div class="estrelas">
+                        <div class="btn"><a href="./teste_de_doenca.html">Análise de Sintomas</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="links">
+                <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+                <p>Copyright 2023 | EpiResolve - Todos os Diteitos Reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <!--End Footer-->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

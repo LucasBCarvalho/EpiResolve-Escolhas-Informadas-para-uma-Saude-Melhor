@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ICONE-->
+	<link rel="shortcut icon" href="./assets/imgs/medicine-clipart-medical-symbol-1.png" type="image/x-icon">
+    <title>Teste de Doença | EpiResolve - Escolhas Informadas para uma Saúde Melhor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+    <!--AOS CSS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/modal.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Font awesome -->
+    <link 
+        rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" 
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
+    <!--AOS JS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="container">
+            <nav class="navigation">
+                <a href="index.html">
+                    <img class="logo" src="./assets/imgs/logo.png" alt="Logo" data-aos="fade-down">
+                </a>
+                <ul class="ul" data-aos="fade-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="servico.html">Serviços</a></li>
+                    <li><a class="btn" href="cadastre-se.html">Cadastrar</a></li>
+                    
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times-circle"></i>
+                    </div>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+
+            <section class="banner">
+                <div class="banner-text" data-aos="fade-up" data-aos-delay="300">
+                    <h1>Análise de Sintomas Inteligente</h1>
+                    <p>
+                        Bem-vindo à nossa página de Análise de Sintomas Inteligente! 
+                        Aqui, você encontrará informações essenciais sobre diversas epidemias. 
+                        Explore e fique informado!    
+                    </p>
+                </div>
+            </section>
+        </div>
+    </header>
+    <!--End Header-->
+    <section class="body-cont">
+    <div class="cont">
+        <h1>Teste de Doença</h1>
+        <p>Marque os sintomas que você está sentindo:</p>
+        <form id="symptom-form" class="clearfix">
+            <div class="symptom-group">
+                <div class="column">
+                    <label><input type="checkbox" name="symptoms" value="1"> Perda de peso inexplicável</label><br>
+                    <label><input type="checkbox" name="symptoms" value="2"> Febre</label><br>
+                    <label><input type="checkbox" name="symptoms" value="3"> Fadiga</label><br>
+                    <label><input type="checkbox" name="symptoms" value="4"> Infecções recorrentes</label><br>
+                    <label><input type="checkbox" name="symptoms" value="5"> Tosse seca prolongada</label><br>
+                    <label><input type="checkbox" name="symptoms" value="6"> Diarreia crônica</label><br>
+                    <label><input type="checkbox" name="symptoms" value="7"> Suores noturnos</label><br>
+                    <label><input type="checkbox" name="symptoms" value="8"> Feridas na boca ou genitais</label><br>
+                    <label><input type="checkbox" name="symptoms" value="9"> Tosse persistente por mais de duas semanas</label><br>
+                </div>
+                <div class="column">
+                    <label><input type="checkbox" name="symptoms" value="14"> Dor no peito</label><br>
+                    <label><input type="checkbox" name="symptoms" value="15"> Falta de ar</label><br>
+                    <label><input type="checkbox" name="symptoms" value="17"> Calafrios intensos</label><br>
+                    <label><input type="checkbox" name="symptoms" value="19"> Dores musculares e nas articulações</label><br>
+                    <label><input type="checkbox" name="symptoms" value="18"> Suores intensos</label><br>
+                    <label><input type="checkbox" name="symptoms" value="21"> Náuseas e vômitos</label><br>
+                    <label><input type="checkbox" name="symptoms" value="22"> Anemia</label><br>
+                    <label><input type="checkbox" name="symptoms" value="24"> Dor nas articulações</label><br>
+                    <label><input type="checkbox" name="symptoms" value="25"> Inchaço</label><br>
+                    
+                </div>
+                <div class="column">
+                    <label><input type="checkbox" name="symptoms" value="26"> Lesões na pele</label><br>
+                    <label><input type="checkbox" name="symptoms" value="27"> Ulcerações</label><br>
+                    <label><input type="checkbox" name="symptoms" value="28"> Fraqueza geral</label><br>
+                    <label><input type="checkbox" name="symptoms" value="29"> Fadiga intensa</label><br>
+                    <label><input type="checkbox" name="symptoms" value="33"> Perda de apetite</label><br>
+                    <label><input type="checkbox" name="symptoms" value="34"> Icterícia (pele e olhos amarelados)</label><br>
+                    <label><input type="checkbox" name="symptoms" value="35"> Diarreia intensa</label><br>
+                    <label><input type="checkbox" name="symptoms" value="36"> Vômitos</label><br>
+                    <label><input type="checkbox" name="symptoms" value="38"> Desidratação</label><br>
+                    <label><input type="checkbox" name="symptoms" value="39"> Fraqueza</label><br>
+                </div>
+            </div>
+            <div class="btn-container">
+                <button type="button" class="modal-open-button" onclick="exibirModal()">Realizar Teste</button>
+            </div>
+        </form>
+        <div id="resultado"></div>
+    </div>
+</section>
+    <!-- Modal de aceitação de termos -->
+    <div class="overlay" id="terms-modal">
+        <div class="modal">
+            <button class="close-button" onclick="fecharModal()">&#215;</button>
+            <h2>Termos de Uso</h2>
+            <p>Por favor, leia e aceite os termos de uso antes de ver o resultado:</p>
+            <label for="aceitouTermos">
+                <input type="checkbox" id="aceitouTermos"> Eu aceito os termos de uso
+            </label>
+            <br>
+            <button class="modal-accept-button" onclick="aceitarTermos()">Aceitar</button>
+            <button class="modal-cancel-button" onclick="fecharModal()">Cancelar</button>
+        </div>
+    </div>
+    
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="links">
+                <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+                <p>Copyright 2023 | EpiResolve - Todos os Diteitos Reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <!--End Footer-->
+    <script src="./assets/js/main.js"></script>
+
+    <script src="./assets/js/modal.js"></script>
+    <script src="./assets/js/teste.js"></script>
+</body>
+</html>

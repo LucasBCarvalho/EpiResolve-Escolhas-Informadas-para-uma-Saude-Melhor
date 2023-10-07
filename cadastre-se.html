@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ICONE-->
+	<link rel="shortcut icon" href="./assets/imgs/medicine-clipart-medical-symbol-1.png" type="image/x-icon">
+    <title>Cadastro | EpiResolve - Escolhas Informadas para uma Saúde Melhor</title>
+    <!--AOS CSS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/cadastro.css">
+
+    <!-- Font awesome -->
+    <link 
+        rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" 
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
+    <!--AOS JS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="container">
+            <nav class="navigation">
+                <a href="index.html">
+                    <img class="logo" src="./assets/imgs/logo.png" alt="Logo" data-aos="fade-down">
+                </a>
+                <ul class="ul" data-aos="fade-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="servico.html">Serviços</a></li>
+                    <li><a class="btn" href="cadastre-se.html">Cadastrar</a></li>
+                    
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times-circle"></i>
+                    </div>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+
+            <section class="banner">
+                <div class="banner-text" data-aos="fade-up" data-aos-delay="300">
+                    <h1>Cadastre-se</h1>
+                    <p>
+                        Queremos ajudá-lo a entender melhor como nosso site funciona! 
+                        Preencha o formulário abaixo para receber um e-mail com um PDF explicativo sobre todas as funcionalidades que oferecemos.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </header>
+    <!--End Header-->
+
+    <section class="cadastro">
+        <div class="container">
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124433.49889494886!2d-38.56295590273434!3d-12.936821199999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716119890d5849f%3A0xf254f0c62d1ffe87!2sUNIJORGE!5e0!3m2!1spt-BR!2sbr!4v1694453014997!5m2!1spt-BR!2sbr" 
+    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="cadastro-info">
+                <div class="left-side">
+                    <div>
+                        <i class="fa fa-map-marker"></i>
+                        <p>Av. Luis Viana 6775 (Paralela), Salvador, BA, 41745-027</p>
+                    </div>
+
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <p>lucas.carvalho30111@gmail.com</p>
+                    </div>
+
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <p>(00) 00000-0000</p>
+                    </div>
+
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <p>(00) 00700-0000</p>
+                    </div>
+                </div>
+
+                <div class="right-side">
+                    <form action="">
+                        <input type="text" name="" id="" placeholder="Nome" required>
+                        <input type="email" name="" id="" placeholder="Email" required>
+                        <input type="text" name="" id="" placeholder="Assunto" required>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem" required></textarea>
+                        <button class="btn">Enviar mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="links">
+                <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+                <p>Copyright 2023 | EpiResolve - Todos os Diteitos Reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <!--End Footer-->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

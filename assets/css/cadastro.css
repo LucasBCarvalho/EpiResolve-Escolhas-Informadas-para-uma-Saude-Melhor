@@ -1,0 +1,86 @@
+
+.cadastro-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.cadastro-info .left-side {
+    width: 50%;
+    padding: 30px;
+    background-color: #3bc046;
+    border-radius: 14px;
+    margin-right: 50px;
+    height: fit-content;
+}
+
+.cadastro-info .left-side div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cadastro-info .left-side div i {
+    font-size: 24px;
+    margin-right: 20px;
+    color: white;
+}
+
+.cadastro-info .left-side p {
+    font-size: 17px;
+    color: white;
+}
+
+.cadastro-info .right-side {
+    width: 50%;
+}
+
+.cadastro-info .right-side input {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    height: 47px;
+    padding: 15px;
+    border-radius: 9px;
+    transition: 0.3s;
+    border: 1px solid #f1f1f1;
+    color: #212121;
+    font-weight: lighter;
+}
+
+.cadastro-info .right-side input:focus,
+.cadastro-info .right-side textarea:focus {
+    border-color: #3bc046;
+}
+
+.cadastro-info .right-side textarea {
+    border: 1px solid #f1f1f1;
+    color: #212121;
+    border-radius: 9px;
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 100%;
+    transition: 0.3s;
+    resize: none;
+}
+
+.cadastro-info .right-side button {
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+    .cadastro-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cadastro-info .left-side {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .cadastro-info .right-side {
+        width: 100%;
+    }
+}

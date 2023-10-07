@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ICONE-->
+	<link rel="shortcut icon" href="./assets/imgs/medicine-clipart-medical-symbol-1.png" type="image/x-icon">
+    <title>Informações | EpiResolve - Escolhas Informadas para uma Saúde Melhor</title>
+    <!--AOS CSS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/info.css">
+    <link rel="stylesheet" href="./assets/css/servico.css">
+
+    <!-- Font awesome -->
+    <link 
+        rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" 
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
+    <!--AOS JS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="container">
+            <nav class="navigation">
+                <a href="index.html">
+                    <img class="logo" src="./assets/imgs/logo.png" alt="Logo" data-aos="fade-down">
+                </a>
+                <ul class="ul" data-aos="fade-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="servico.html">Serviços</a></li>
+                    <li><a class="btn" href="cadastre-se.html">Cadastrar</a></li>
+                    
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times-circle"></i>
+                    </div>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+
+            <section class="banner">
+                <div class="banner-text" data-aos="fade-up" data-aos-delay="300">
+                    <h1>Informações</h1>
+                    <p>
+                        Na EpiResolve, estamos comprometidos em fornecer uma gama abrangente de serviços especializados
+                        para atender às necessidades específicas de pesquisa, conscientização e prevenção de epidemias de doenças.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </header>
+    <!--End Header-->
+
+    <!--Inicio Serviços-->
+    <section class="servico">
+        <div class="container">
+            <h3>Sobre as Doenças</h3>
+            <p>Conheça sobre cada uma das Doenças!</p>
+            
+            <div class="rows-cards">
+
+                <div class="row-card-item">
+                    <p class="nome-servico"><strong>AIDS</strong></p>
+                    <p class="descricao-servico">
+                        A AIDS, ou Síndrome da Imunodeficiência Adquirida, é uma doença viral crônica causada pelo HIV (Vírus da Imunodeficiência Humana). O HIV compromete o sistema imunológico, tornando o corpo suscetível a infecções e doenças oportunistas. A transmissão ocorre principalmente por sexo desprotegido, compartilhamento de agulhas contaminadas, transfusões de sangue não testado e de mãe para filho durante a gravidez, parto ou amamentação. Clique no botão abaixo para saber mais sobre o HIV, a AIDS e as formas de prevenção e tratamento.
+                    </p>
+                    <div class="estrelas">
+                        <div class="btn"><a href="https://analisador-de-sintomas.vercel.app/">SAIBA MAIS!</a></div>
+                    </div>
+                </div>
+                
+                <div class="row-card-item">
+                    <p class="nome-servico"><strong>MALÁRIA</strong></p>
+                    <p class="descricao-servico">
+                        A malária é uma doença parasitária transmitida por mosquitos infectados com Plasmodium. Ela causa febre, calafrios, dor de cabeça, dores musculares e fadiga extrema. Embora seja uma ameaça global, a malária é especialmente prevalente em regiões tropicais onde os mosquitos transmissores são comuns. A prevenção inclui o uso de repelentes de insetos, mosquiteiros tratados com inseticidas e medicamentos antimaláricos. Clique no botão abaixo para saber mais sobre a malária e suas medidas de prevenção e tratamento.
+                    </p>
+                    <div class="estrelas">
+                        <div class="btn"><a href="https://analisador-de-sintomas.vercel.app/">SAIBA MAIS!</a></div>
+                    </div>
+                </div>
+                
+                <div class="row-card-item">
+                    <p class="nome-servico"><strong>TUBERCULOSE</strong></p>
+                    <p class="descricao-servico">
+                        A tuberculose é uma doença bacteriana causada pelo Mycobacterium tuberculosis. Ela afeta principalmente os pulmões, mas pode se disseminar para outras partes do corpo. Transmitida pelo ar, a tuberculose é uma das principais causas de morte por doenças infecciosas em todo o mundo. Os sintomas comuns incluem tosse persistente, febre, sudorese noturna, perda de peso inexplicada e fadiga prolongada. Clique no botão abaixo para obter mais informações sobre a tuberculose, seus sintomas, prevenção e tratamento.
+                    </p>
+                    <div class="estrelas">
+                        <div class="btn"><a href="https://analisador-de-sintomas.vercel.app/">SAIBA MAIS!</a></div>
+                    </div>
+                </div>
+                                           
+                
+                <div class="row-card-item">
+                    <p class="nome-servico"><strong>DOENÇAS TROPICAIS NEGLIGENCIADAS</strong></p>
+                    <p class="descricao-servico">
+                        As doenças tropicais negligenciadas são um grupo de doenças infecciosas que afetam principalmente populações de baixa renda em regiões tropicais e subtropicais. Elas incluem doenças como a doença de Chagas, leishmaniose e esquistossomose, entre outras. Essas doenças muitas vezes recebem pouca atenção e financiamento, apesar de causarem um fardo significativo de doenças. Clique no botão abaixo para saber mais sobre as doenças tropicais negligenciadas.
+                    </p>
+                    <div class="estrelas">
+                        <div class="btn"><a href="https://analisador-de-sintomas.vercel.app/">SAIBA MAIS!</a></div>
+                    </div>
+                </div>
+                
+                <div class="row-card-item">
+                    <p class="nome-servico"><strong>HEPATITE</strong></p>
+                    <p class="descricao-servico">
+                        As hepatites são doenças inflamatórias do fígado que podem ser causadas por vírus, álcool, drogas ou outras condições médicas. Existem diferentes tipos de hepatites, sendo as mais comuns as hepatites A, B e C. Elas podem ser transmitidas de várias maneiras, incluindo contato com sangue contaminado, relações sexuais desprotegidas e ingestão de água ou alimentos contaminados. Clique no botão abaixo para saber mais sobre as hepatites, seus tipos, sintomas e medidas preventivas.
+                    </p>
+                    <div class="estrelas">
+                        <div class="btn"><a href="https://analisador-de-sintomas.vercel.app/">SAIBA MAIS!</a></div>
+                    </div>
+                </div>                
+                
+                <div class="row-card-item">
+                    <p class="nome-servico"><strong>DOENÇAS TRANSMITIDAS PELA ÁGUA</strong></p>
+                    <p class="descricao-servico">
+                        As doenças transmitidas pela água são infecções provocadas por micro-organismos patogênicos, como bactérias, vírus e parasitas, que contaminam a água potável. A exposição ou ingestão de água contaminada pode resultar em uma variedade de doenças, incluindo diarreia, cólera, hepatite A e várias infecções parasitárias. Essas doenças podem ter sérios impactos na saúde. Clique no botão abaixo para obter mais informações sobre doenças transmitidas pela água, seus sintomas e medidas preventivas.
+                    </p>
+                    <div class="estrelas">
+                        <div class="btn"><a href="https://analisador-de-sintomas.vercel.app/">SAIBA MAIS!</a></div>
+                    </div>
+                </div>                
+                
+            </div>
+
+        </div>
+        <!--Fim Serviços-->
+    </section>
+    
+    
+    <!--End Serviços-->
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="links">
+                <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+                <p>Copyright 2023 | EpiResolve - Todos os Diteitos Reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <!--End Footer-->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

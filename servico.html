@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ICONE-->
+	<link rel="shortcut icon" href="./assets/imgs/medicine-clipart-medical-symbol-1.png" type="image/x-icon">
+    <title>Serviços | EpiResolve - Escolhas Informadas para uma Saúde Melhor</title>
+    <!--AOS CSS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/servico.css">
+
+    <!-- Font awesome -->
+    <link 
+        rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" 
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
+    <!--AOS JS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="container">
+            <nav class="navigation">
+                <a href="index.html">
+                    <img class="logo" src="./assets/imgs/logo.png" alt="Logo" data-aos="fade-down">
+                </a>
+                <ul class="ul" data-aos="fade-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="servico.html">Serviços</a></li>
+                    <li><a class="btn" href="cadastre-se.html">Cadastrar</a></li>
+                    
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times-circle"></i>
+                    </div>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+
+            <section class="banner">
+                <div class="banner-text" data-aos="fade-up" data-aos-delay="300">
+                    <h1>Serviços</h1>
+                    <p>
+                        Na EpiResolve, estamos comprometidos em fornecer uma gama abrangente de serviços especializados
+                        para atender às necessidades específicas de pesquisa, conscientização e prevenção de epidemias de doenças.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </header>
+    <!--End Header-->
+
+    <!--Inicio Serviços-->
+    <section class="servico">
+        <div class="container">
+            <h3>Nossos Serviços</h3>
+            <p>Conheça nossos melhores serviços!</p>
+            
+            <div class="rows-cards">
+                <div class="row-card-item">
+                    <img src="img/cloud.png" alt="">
+                    <p class="nome-servico"><strong>Informações Sobre Doenças</strong></p>
+                    <p class="descricao-servico">
+                        Fornecemos informações confiáveis sobre diversas doenças, baseadas em pesquisas acadêmicas, 
+                        com o objetivo de aumentar a compreensão do público sobre essas condições, 
+                        promovendo a conscientização e fornecendo orientações claras sobre prevenção e tratamento. 
+                        Acreditamos que o conhecimento é a chave para a prevenção e, portanto, 
+                        nos esforçamos para tornar as informações médicas acessíveis a todos.
+                    </p>
+                </div>
+
+                <div class="row-card-item">
+                    <img src="img/digital-marketing.png" alt="">
+                    <p class="nome-servico"><strong>Exploração Lúdica e Educativa</strong></p>
+                    <p class="descricao-servico">
+                        Utilização de jogos educativos como “SymptomSolver”, “EpidemicEscape” e “TransmitDefender”para engajar usuários
+                        na identificação de doenças por sintomas, conscientização sobre prevenção de epidemias e combate a doenças transmissíveis, 
+                        incluindo AIDS, tuberculose, malária, doenças tropicais negligenciadas, hepatite e doenças transmitidas pela água.
+                    </p>
+                </div>
+    
+                <div class="row-card-item">
+                    <img src="img/seo.png" alt="">
+                    <p class="nome-servico"><strong>Análise de Sintomas Inteligente</strong></p>
+                    <p class="descricao-servico">
+                        Nós fornecemos uma análise básica de sintomas usando informações detalhadas sobre várias epidemias, incluindo AIDS, 
+                        tuberculose, malária, doenças tropicais negligenciadas, hepatite e doenças transmitidas pela água. Tendo como principal objetivo é servir 
+                        como um recurso confiável para indivíduos que buscam entender melhor suas condições de saúde e as várias epidemias que afetam nossa sociedade atualmente.
+                    </p>
+                </div>
+                
+            </div>
+
+        </div>
+        <!--Fim Serviços-->
+    </section>
+    
+    <section class="dados">
+        <p>Acesse por Aqui!</p>
+        <div class="container">
+            
+            <div class="dados-item">
+                <div class="estrelas">
+                    <div class="btn"><a href="info.html">Informações Sobre Doenças</a></div>
+                </div>
+            </div>
+
+            <div class="dados-item">
+                <div class="estrelas">
+                    <div class="btn"><a href="https://analisador-de-sintomas.vercel.app/">Exploração Lúdica e Educativa</a></div>
+                </div>
+            </div>
+
+            <div class="dados-item">
+                <div class="estrelas">
+                        <div class="btn"><a href="teste_de_doenca.html">Análise de Sintomas Inteligente</a></div>
+                    </div>
+            </div>
+            
+        </div>
+    </section>
+    
+    
+    <!--End Serviços-->
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="links">
+                <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+                <p>Copyright 2023 | EpiResolve - Todos os Diteitos Reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <!--End Footer-->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

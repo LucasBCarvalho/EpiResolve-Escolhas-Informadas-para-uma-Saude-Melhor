@@ -1,0 +1,81 @@
+
+.servico h3 {
+    text-align: center;
+}
+
+.servico .container > p {
+    text-align: center;
+}
+
+
+.servico .rows-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.servico .row-card-item {
+    background-color: #3bc046;
+    color: gray;
+    width: 350px;
+    padding: 20px;
+    border-radius: 14px;
+    margin: 20px;
+    transition: 0.3s;
+}
+
+.servico .row-card-item:hover {
+    background-color: rgb(16, 214, 72);
+}
+
+.servico .row-card-item:hover p {
+    color: white;
+}
+
+.servico .row-card-item p.nome-servico {
+    margin: 8px 0;
+    transition: 0.3s;
+}
+
+.servico .row-card-item p.descricao-servico{
+    transition: 0.3s;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    text-align: center;
+}
+
+.dados p {
+    font-size: 24px; 
+    font-weight: bold;
+    border-bottom: 2px solid gray;
+    margin-bottom: 5px;
+}
+
+.dados .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dados .dados-item {
+    margin: 5px; 
+}
+
+.dados .dados-item a {
+    text-align: center;
+    color: white;
+}
+
+
+@media(max-width: 450px) {
+    .btn {
+        margin: 5px;
+    }
+}
