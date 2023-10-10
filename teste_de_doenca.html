@@ -53,8 +53,70 @@
             </section>
         </div>
     </header>
-    <!--End Header -->
-    
+    <!--End Header-->
+    <section class="body-cont">
+    <div class="cont">
+        <h1>Teste de Doença</h1>
+        <p>Marque os sintomas que você está sentindo:</p>
+        <form id="symptom-form" class="clearfix">
+            <div class="symptom-group">
+                <div class="column">
+                    <label><input type="checkbox" name="symptoms" value="1"> Perda de peso inexplicável</label><br>
+                    <label><input type="checkbox" name="symptoms" value="2"> Febre</label><br>
+                    <label><input type="checkbox" name="symptoms" value="3"> Fadiga</label><br>
+                    <label><input type="checkbox" name="symptoms" value="4"> Infecções recorrentes</label><br>
+                    <label><input type="checkbox" name="symptoms" value="5"> Tosse seca prolongada</label><br>
+                    <label><input type="checkbox" name="symptoms" value="6"> Diarreia crônica</label><br>
+                    <label><input type="checkbox" name="symptoms" value="7"> Suores noturnos</label><br>
+                    <label><input type="checkbox" name="symptoms" value="8"> Feridas na boca ou genitais</label><br>
+                    <label><input type="checkbox" name="symptoms" value="9"> Tosse persistente por mais de duas semanas</label><br>
+                </div>
+                <div class="column">
+                    <label><input type="checkbox" name="symptoms" value="14"> Dor no peito</label><br>
+                    <label><input type="checkbox" name="symptoms" value="15"> Falta de ar</label><br>
+                    <label><input type="checkbox" name="symptoms" value="17"> Calafrios intensos</label><br>
+                    <label><input type="checkbox" name="symptoms" value="19"> Dores musculares e nas articulações</label><br>
+                    <label><input type="checkbox" name="symptoms" value="18"> Suores intensos</label><br>
+                    <label><input type="checkbox" name="symptoms" value="21"> Náuseas e vômitos</label><br>
+                    <label><input type="checkbox" name="symptoms" value="22"> Anemia</label><br>
+                    <label><input type="checkbox" name="symptoms" value="24"> Dor nas articulações</label><br>
+                    <label><input type="checkbox" name="symptoms" value="25"> Inchaço</label><br>
+                    
+                </div>
+                <div class="column">
+                    <label><input type="checkbox" name="symptoms" value="26"> Lesões na pele</label><br>
+                    <label><input type="checkbox" name="symptoms" value="27"> Ulcerações</label><br>
+                    <label><input type="checkbox" name="symptoms" value="28"> Fraqueza geral</label><br>
+                    <label><input type="checkbox" name="symptoms" value="29"> Fadiga intensa</label><br>
+                    <label><input type="checkbox" name="symptoms" value="33"> Perda de apetite</label><br>
+                    <label><input type="checkbox" name="symptoms" value="34"> Icterícia (pele e olhos amarelados)</label><br>
+                    <label><input type="checkbox" name="symptoms" value="35"> Diarreia intensa</label><br>
+                    <label><input type="checkbox" name="symptoms" value="36"> Vômitos</label><br>
+                    <label><input type="checkbox" name="symptoms" value="38"> Desidratação</label><br>
+                    <label><input type="checkbox" name="symptoms" value="39"> Fraqueza</label><br>
+                </div>
+            </div>
+            <div class="btn-container">
+                <button type="button" class="modal-open-button" onclick="exibirModal()">Realizar Teste</button>
+            </div>
+        </form>
+        <div id="resultado"></div>
+    </div>
+</section>
+    <!-- Modal de aceitação de termos -->
+    <div class="overlay" id="terms-modal">
+        <div class="modal">
+            <button class="close-button" onclick="fecharModal()">&#215;</button>
+            <h2>Termos de Uso</h2>
+            <p>Por favor, leia e aceite os termos de uso antes de ver o resultado:</p>
+            <label for="aceitouTermos">
+                <input type="checkbox" id="aceitouTermos"> Eu aceito os termos de uso
+            </label>
+            <br>
+            <button class="modal-accept-button" onclick="aceitarTermos()">Aceitar</button>
+            <button class="modal-cancel-button" onclick="fecharModal()">Cancelar</button>
+        </div>
+    </div>
     
     <!--Footer-->
     <footer class="footer">
