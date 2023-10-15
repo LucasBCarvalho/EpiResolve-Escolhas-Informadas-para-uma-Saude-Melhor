@@ -456,16 +456,18 @@ footer p {
 
     /* banner */ 
     .banner .banner-text {
-        padding: 0;
-        margin: 80px;
+        margin: 20px;
+        text-align: center;
+        padding: 10rem 10px;
     }
 
     .banner .banner-text h1 {
-        font-size: 60px;
+        
+        font-size: 65px;
     }
 
     .banner .banner-text p {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .comentarios .card-item {
@@ -504,10 +506,10 @@ footer p {
 
 @media(max-width: 500px) {
     .banner .banner-text h1 {
-        font-size: 50px;
+        font-size: 37.5px;
     }
 
-    .faca-mais .faca-mais-text h3 {
-        font-size: 40px;
+    .banner .banner-text p {
+        font-size: 15px;
     }
 }
