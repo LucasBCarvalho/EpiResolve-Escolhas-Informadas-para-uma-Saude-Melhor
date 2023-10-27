@@ -124,8 +124,8 @@ function getExplicacaoAIDS() {
 }
 
 function saibaMaisAIDS() {
-    // Redirecionar para a página específica sobre AIDS (fazer pagina)
-    window.location.href = "https://www.tuasaude.com/sintomas-da-aids/";
+    // Redirecionar para a página específica sobre AIDS 
+    window.location.href = "https://epi-resolve-escolhas-informadas-para-uma-saude-melhor.vercel.app/aids.html";
 }
 
 function getExplicacaoTuberculose() {
@@ -144,7 +144,7 @@ function getExplicacaoTuberculose() {
 
 function saibaMaisTuberculose() {
     // Redirecionar para a página específica sobre Tuberculose (fazer pagina)
-    window.location.href = "https://exemplo.com/informacoes-tuberculose";
+    window.location.href = "https://epi-resolve-escolhas-informadas-para-uma-saude-melhor.vercel.app/tuberculos.html";
 }
 
 function getExplicacaoMalaria() {
@@ -162,8 +162,8 @@ function getExplicacaoMalaria() {
 }
 
 function saibaMaisMalaria() {
-    // Redirecionar para a página específica sobre Malária (fazer pagina)
-    window.location.href = "https://exemplo.com/informacoes-malaria";
+    // Redirecionar para a página específica sobre Malária 
+    window.location.href = "https://epi-resolve-escolhas-informadas-para-uma-saude-melhor.vercel.app/malaria.html";
 }
 
 function getExplicacaoDoencasTropicaisNegligenciadas() {
@@ -180,8 +180,8 @@ function getExplicacaoDoencasTropicaisNegligenciadas() {
 }
 
 function saibaMaisTropicaisNegligenciadas() {
-    // Redirecionar para a página específica sobre Doenças Tropicais Negligenciadas (fazer pagina)
-    window.location.href = "https://exemplo.com/informacoes-tropicais-negligenciadas";
+    // Redirecionar para a página específica sobre Doenças Tropicais Negligenciadas 
+    window.location.href = "https://epi-resolve-escolhas-informadas-para-uma-saude-melhor.vercel.app/doencas_tropicais_negligenciadas.html";
 }
 
 function getExplicacaoHepatite() {
@@ -199,7 +199,7 @@ function getExplicacaoHepatite() {
 
 function saibaMaisHepatite() { 
     // Redirecionar para a página específica sobre Hepatite (fazer pagina)
-    window.location.href = "https://exemplo.com/informacoes-hepatite";
+    window.location.href = "https://epi-resolve-escolhas-informadas-para-uma-saude-melhor.vercel.app/hepatite.html";
 }
 
 function getExplicacaoDoencasTransmitidasAgua() {
@@ -216,7 +216,7 @@ function getExplicacaoDoencasTransmitidasAgua() {
 
 function saibaMaisTransmitidasAgua() {
     // Redirecionar para a página específica sobre Doenças Transmitidas pela Água (fazer pagina)
-    window.location.href = "https://exemplo.com/informacoes-transmitidas-agua";
+    window.location.href = "https://epi-resolve-escolhas-informadas-para-uma-saude-melhor.vercel.app/doencas_transmitidas_pela_agua.html";
 }
 
 
