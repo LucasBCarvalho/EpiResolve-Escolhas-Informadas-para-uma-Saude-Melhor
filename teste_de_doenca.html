@@ -23,6 +23,7 @@
     <!--AOS JS-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
+
 <body>
     <!--Header-->
     <header>
@@ -57,6 +58,7 @@
     <!--End Header-->
 
     <section class="body-cont">
+        
     <div class="cont">
         <h1>Teste de Doença</h1>
         <p>Marque os sintomas que você está sentindo:</p>
@@ -98,6 +100,10 @@
                     <label><input type="checkbox" name="symptoms" value="39"> Fraqueza</label><br>
                 </div>
             </div>
+            <div class="container">
+                <p><span class="larger-star">&#10031;</span> <strong>Lembre-se de que os sintomas podem diferir entre as pessoas e que a gravidade dos sintomas pode variar. Esta lista é apenas uma orientação geral e não substitui o aconselhamento médico adequado.</strong></p>
+
+            </div>
             <div class="btn-container">
                 <button type="button" class="modal-open-button" onclick="exibirModal()">Realizar Teste</button>
             </div>
@@ -105,12 +111,14 @@
         <div id="resultado"></div>
     </div>
 </section>
-    <!-- Modal de aceitação de termos -->
+    <!-- Modal de aceitação de termos -->    
     <div class="overlay" id="terms-modal">
         <div class="modal">
-            <button class="close-button" onclick="fecharModal()">&#215;</button>
+            <button class="close-button" onclick="fecharModal('terms-modal')">&#215;</button>
             <h2>Termos de Uso</h2>
             <p>Por favor, leia e aceite os termos de uso antes de ver o resultado:</p>
+            <a onclick="openSecondModal()" id="verTermos">Ver Termos de Uso</a>
+            <br>
             <label for="aceitouTermos">
                 <input type="checkbox" id="aceitouTermos"> Eu aceito os termos de uso
             </label>
@@ -119,7 +127,19 @@
             <button class="modal-cancel-button" onclick="fecharModal()">Cancelar</button>
         </div>
     </div>
-    
+
+    <div class="overlay" id="second-terms-modal">
+        <div class="modal">
+            <button class="close-button" onclick="closeModal('second-terms-modal')">&#215;</button>
+            <h2>Termos de Uso</h2><br>
+            <p>- Lembre-se de que os sintomas podem diferir entre as pessoas e que a gravidade dos sintomas pode variar. Esta lista é apenas uma orientação geral e não substitui o aconselhamento médico adequado.</p><br>
+            <p>- Consulte sempre um profissional de saúde para obter orientação específica sobre seus sintomas e condições de saúde.</p><br>
+            <p>- Estamos aqui para fornecer informações, mas não podemos substituir o conselho médico profissional.</p><br>
+            <button class="modal-cancel-button" onclick="closeModal('second-terms-modal')">OK</button>
+        </div>
+    </div>
+      
+
     <!--Footer-->
     <footer class="footer">
         <div class="container">
@@ -135,8 +155,8 @@
     </footer>
     <!--End Footer-->
     <script src="./assets/js/main.js"></script>
-
     <script src="./assets/js/modal.js"></script>
+    <script src="./assets/js/second-modal.js"></script>
     <script src="./assets/js/teste.js"></script>
 </body>
 </html>

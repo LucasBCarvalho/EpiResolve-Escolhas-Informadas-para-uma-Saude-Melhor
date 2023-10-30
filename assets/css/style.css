@@ -109,7 +109,11 @@ button:hover {
         color: var(--primary-color);
         margin-top: 20px;
 }
-    
+
+.larger-star {
+    font-size: 22.5px;   
+} 
+
 /* Largura máxima de 976px */
 @media (max-width: 976px) {
     .symptom-group {
