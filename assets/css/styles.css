@@ -283,7 +283,7 @@ footer p {
 }
 
 /*RESPONSIVIDADE*/
-@media screen and (max-width: 1058px) {
+@media screen and (max-width: 1450px) {
     
     /* Home */
     .faca-mais .faca-mais-text {
@@ -309,7 +309,76 @@ footer p {
     /* banner */ 
     .banner .banner-text {
         padding: 0;
-        margin: 80px;
+    }
+
+    .banner .banner-text h1 {
+        font-size: 65px;
+    }
+
+    .banner .banner-text p {
+        font-size: 15px;
+    }
+
+    .comentarios .card-item {
+        width: 75%;
+    }
+
+    /* Sobre */
+
+    .sobre .container {
+        flex-direction: column-reverse;
+    }
+
+    .sobre .sobre-img,
+    .sobre .sobre-text {
+        width: 75%;
+    }
+
+    .sobre .sobre-text {
+        margin-top: 40px;
+    }
+
+    /* Contato */ 
+    .contato .contato-info {
+        flex-direction: column-reverse;
+    }
+
+    .contato-info .right-side,
+    .contato-info .left-side {
+        width: 75%;
+    }
+
+    .contato-info .right-side {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    
+    /* Home */
+    .faca-mais .faca-mais-text {
+        margin-top: 10px;
+        padding: 0 20px;
+        order: 1;
+        
+    }
+
+    .faca-mais .container {
+        flex-direction: column;
+    }
+
+    .faca-mais .faca-mais-text h3 {
+        font-size: 48px;
+    }
+
+    .faca-mais .faca-mais-text,
+    .faca-mais .faca-mais-img {
+        width: 85%;
+    }
+
+    /* banner */ 
+    .banner .banner-text {
+        padding: 0;
     }
 
     .banner .banner-text h1 {
@@ -390,6 +459,25 @@ footer p {
         right: 28px;
     }
 
+    /* banner */ 
+    .banner .banner-text {
+        margin: 20px;
+        text-align: center;
+        padding: 5rem 10px;
+    }
+
+    .banner .banner-text h1 {
+        font-size: 60px;
+    }
+
+    .banner .banner-text p {
+        font-size: 15px;
+    }
+
+    .comentarios .card-item {
+        width: 75%;
+    }
+
 }
 
 @media(max-width: 830px) {
@@ -462,12 +550,11 @@ footer p {
     }
 
     .banner .banner-text h1 {
-        
-        font-size: 65px;
+        font-size: 60px;
     }
 
     .banner .banner-text p {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .comentarios .card-item {
@@ -504,12 +591,51 @@ footer p {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
+    .banner .banner-text {
+        margin: 20px;
+        text-align: center;
+        padding: 5rem 10px;
+    }
+
     .banner .banner-text h1 {
-        font-size: 30px; 
+        font-size: 50px; 
     }
 
     .banner .banner-text p {
-        font-size: 13px; 
+        font-size: 15px; 
+    }
+}
+
+@media (max-width: 450px) {
+    .banner .banner-text {
+        margin: 20px;
+        text-align: center;
+        padding: 5rem 10px;
+    }
+
+    .banner .banner-text h1 {
+        font-size: 40px; 
+    }
+
+    .banner .banner-text p {
+        font-size: 12.5px; 
+    }
+}
+
+
+@media (max-width: 375px) {
+    .banner .banner-text {
+        margin: 20px;
+        text-align: center;
+        padding: 5rem 10px;
+    }
+
+    .banner .banner-text h1 {
+        font-size: 32.5px; 
+    }
+
+    .banner .banner-text p {
+        font-size: 12.5px; 
     }
 }
