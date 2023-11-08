@@ -34,7 +34,6 @@ header{
     opacity: 0.9;
 }
 
-
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -155,7 +154,6 @@ p{
     font-weight: lighter;
 }
 
-
 /* main*/
 .faca-mais{
     background: linear-gradient(to bottom, #48E349 0%, #2C952C 49%, #1B641B 75%);
@@ -169,13 +167,14 @@ p{
 }
 
 .faca-mais .faca-mais-text {
-    width: 50%;
+    width: 75%;
     padding: 0 40px;
 }
 
 .faca-mais .faca-mais-text p {
     margin: 20px 0 15px 0;
     color: white;
+    
 }
 
 .faca-mais .faca-mais-img {
