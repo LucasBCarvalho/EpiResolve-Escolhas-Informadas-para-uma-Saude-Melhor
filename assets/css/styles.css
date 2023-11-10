@@ -56,7 +56,7 @@ header{
 .navigation ul li a {
     color: white;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 16.5px;
 }
 
 .navigation ul li a:not(.btn)::after { 
@@ -144,12 +144,12 @@ p{
 }
 
 .banner .banner-text h1 {
-    font-size: 75px;
+    font-size: 65px;
     color: white;
 }
 
 .banner .banner-text p {
-    font-size: 20px;
+    font-size: 18.5px;
     color: #ffffffb7;
     font-weight: lighter;
 }
@@ -355,11 +355,15 @@ footer p {
     }
 }
 
-
 /*RESPONSIVIDADE*/
-@media (max-width: 980px) {
-    
+@media (max-width: 1200px){
+    .banner .banner-text h1 {
+        font-size: 60px;
+        color: white;
+    }
+}
 
+@media (max-width: 980px) {
     /* banner */ 
     .banner .banner-text {
         margin: 20px;
