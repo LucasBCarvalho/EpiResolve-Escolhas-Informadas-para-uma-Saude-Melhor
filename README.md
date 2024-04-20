@@ -11,6 +11,26 @@ O EpiResolve é uma plataforma inovadora projetada para enfrentar os desafios da
 - **Jogos Educativos**: Inclui jogos interativos como 'Pandemic 2', 'Plague Inc.' e outros, projetados para aumentar a conscientização e promover a saúde.
 - **Cadastro**: Permite aos usuários se inscreverem para receberem informações contidas em um PDF sobre cada uma das doenças abordadas na ODS 3.3.
 
+## Metodologia
+
+A metodologia do EpiResolve é composta por várias etapas estratégicas, incluindo pesquisa e coleta de dados, análise de sintomas, fornecimento de informações abrangentes, desenvolvimento de jogos educativos e implementação de funcionalidades de cadastro.
+
+## Requisitos
+
+O projeto atende a uma série de requisitos funcionais e não funcionais para garantir sua eficácia e segurança, incluindo segurança de dados, usabilidade, desempenho, disponibilidade, escalabilidade, interoperabilidade e confiabilidade.
+
+## Diagramas e Modelagem
+
+O EpiResolve foi desenvolvido seguindo o modelo 4+1 de Kruchten, que inclui diagramas de caso de uso, sequência, classe, atividade e componentes para proporcionar uma compreensão abrangente da arquitetura e interações do sistema.
+
+## Jogos Online Relacionados à Conscientização e Prevenção de Doenças Transmissíveis
+
+Além das funcionalidades principais, o EpiResolve oferece uma variedade de jogos educativos relacionados à conscientização e prevenção de doenças transmissíveis, cada um projetado para informar e engajar os usuários de maneira envolvente.
+
+## Sintomas de Doenças Infecciosas
+
+O projeto também aborda os sintomas distintivos de doenças infecciosas, fornecendo uma compreensão detalhada de condições como AIDS, tuberculose, malária, hepatite e outras.
+
 ## Tecnologias Utilizadas
 
 O EpiResolve foi desenvolvido utilizando as seguintes linguagens e tecnologias:
@@ -20,7 +40,10 @@ O EpiResolve foi desenvolvido utilizando as seguintes linguagens e tecnologias:
 - **Node.js**: Plataforma de desenvolvimento para o lado do servidor.
 - **Express**: Framework para construção de aplicativos web em Node.js.
 - **Nodemailer**: Biblioteca para envio de e-mails.
-- 
-![image](https://github.com/LucasBorgesDeCarvalho/EpiResolve-Escolhas-Informadas-para-uma-Saude-Melhor/assets/105558309/6178d2c9-7db7-4396-b3e6-c4ce554d5145)
 
-<a href="https://epi-resolve-escolhas-informadas-para-uma-saude-melho-l2n5ppr1l.vercel.app/"><img src="https://img.shields.io/badge/EpiResolve Escolhas Informadas para uma Saude Melhor-4C8A41?style=for-the-badge&logoColor=white" target="_blank"></a>
+##
+
+![image](https://github.com/LucasBorgesDeCarvalho/EpiResolve-Escolhas-Informadas-para-uma-Saude-Melhor/assets/105558309/809cd483-eab4-4667-9a16-e64d08c11bc9)
+
+## Acesso ao Site
+<a href="https://epi-resolve-escolhas-informadas-para-uma-saude-melho-l0bj259ge.vercel.app/index.html"><img src="https://img.shields.io/badge/EpiResolve Escolhas Informadas para uma Saude Melhor-4C8A41?style=for-the-badge&logoColor=white" target="_blank"></a>
